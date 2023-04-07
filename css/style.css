@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+/****************************
+        NAV AREA CSS
+******************************/
+header{
+	background: #010101;
+	padding: 20px 0;
+	transition: .5s;
+}
+.header-area{
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: #0984e3;
+	width: 100%;
+	z-index: 99;
+}
+a.logo{
+	display: block;
+}
+.main-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+.main-menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 0 20px;
+	color: #fff;
+}
+.menu-bar .fa-bars,
+.fa-xmark{
+	color: #fff;
+	font-size: 22px;
+	display: none;
+}
+
+
+/*********************
+      BANNER CSS         
+**********************/
+.banner{
+	background: url(../images/shark.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 400px 0;
+}
+.banner h1{
+	color: #fff;
+	text-align: center;
+}
+
+
+/*********************
+   PRODUCT AREA CSS         
+**********************/
+.product-area{
+   padding: 100px 0;
+   position: relative;
+}
+.owl-nav{}
+.owl-prev{
+   position: absolute;
+   top: 45%;
+   left: -3%;
+}
+.owl-next{
+   position: absolute;
+   top: 45%;
+   right: -3%;
+}
+.owl-dots{
+   text-align: center;
+}
+.owl-dots button.owl-dot{
+    height: 7px;
+	width: 7px;
+	background: #74b9ff;
+	margin: 0 3px;
+	border-radius: 50%;
+}
+.owl-dots button.active{
+	background: #0984e3;
+}
+
+
+/*********************
+      BOXES CSS         
+**********************/
+.box{
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	color: #fff;
+	position: fixed;
+	top: 100px;
+	left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.box-1{
+	height: 300px;
+	background-color: #40739e;
+}
+.box-2{
+	height: 350px;
+	background-color: #38ada9;
+}
+
+
+/*********************
+      SCROLL CSS         
+**********************/
+.scroll-button{
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+	display: none;
+}
+.scroll-button i{
+	font-size: 40px;
+}

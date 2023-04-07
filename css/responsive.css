@@ -1,0 +1,26 @@
+@media (max-width: 991px){
+	header{
+		position: relative;
+	}
+	.menu-bar {
+	    text-align: right;
+    }
+    .menu-bar .fa-bars{
+    	display: block;
+    }
+    .main-menu{
+        display: none;
+        width: 100%;
+        position: absolute;
+    	top: 100%;
+    	left: 0;
+    	background: #D10A47;
+    }
+    .main-menu ul{
+    	display: block;
+    }
+    .main-menu ul li a{
+        padding: 8px 20px;
+    }
+
+}
